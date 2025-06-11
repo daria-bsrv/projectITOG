@@ -1,0 +1,373 @@
+@import '/fonts/fonts.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+body {
+    background: #0E0E2C;
+    /* width: 0 auto; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.item {
+    list-style: none;
+}
+
+a:hover {
+    color: #FFBE0B;
+}
+
+.container {
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+/*-----header--------------------------------------------*/
+.nav {
+    background: #0E0E2C;
+}
+
+.logo {
+    padding: 40px 0 40px 0;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+    width: 80%;
+    list-style: none;
+    column-gap: 54px;
+}
+
+
+.nav__item {
+    color: #fff;
+    font-weight: 400;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    column-gap: 27px;
+}
+
+.btn1 {
+    padding: 12px 35px;
+    font-size: 16px;
+    white-space: nowrap;
+    color: #FFBE0B;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #FFBE0B;
+    width: 126.03px;
+    height: 50.61px; 
+}
+
+.btn2 {
+    padding: 12px 30px;
+    white-space: nowrap;
+    color: #0E0E2C;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #FFBE0B;
+    border: 1px solid #FFBE0B;
+    width: 126.03px;
+    height: 50.61px;
+}
+
+.btn2:hover {
+    background: #0E0E2C;
+    transition: 0.5s;
+    color: #FFBE0B;
+}
+
+.btn1:hover {
+    background: #FFBE0B;
+    transition: 0.5s;
+    color: #0E0E2C;
+
+}
+.guarant {
+    padding: 7px 13px;
+    color: #3A86FF;
+    background: #172656;
+    max-width: 257px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 130%;
+    color: #FFF;
+    margin-top: 10px;
+    max-width: 700px;
+    width: 100%;
+}
+
+/*------------------------------------------*/
+#product {
+    background: #0E0E2C;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#product .container {
+    display: flex;
+    align-items: center;
+}
+
+.build__title {
+    font-weight: 700;
+    line-height: 130%;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 39px;
+}
+
+.blocks {
+    display: flex;
+    padding-top: 90px;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.block__title {
+    font-size: 38px;
+    color: #FFBE0B;
+    font-weight: 700;
+}
+
+.block__txt {
+    color: #868695;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.block__title2 {
+    font-size: 38px;
+    color: #FB5607;
+    font-weight: 700;
+}
+
+.block__txt2 {
+    color: #868695;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.hr {
+    height: 80px;
+}
+
+/*---------------------*/
+#services {
+    background: #0E0E2C;
+    padding-bottom: 50px;
+    margin-bottom: 200px;
+}
+
+#services .container {
+    display: flex;
+    column-gap: 90px;
+    align-items: center;
+}
+
+.services__title {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 130%;
+    max-width: 533px;
+    width: 100%;
+    padding-top: 18px;
+}
+
+.services__txt {
+    padding-top: 35px;
+    color: #868695;
+    font-weight: 400;
+    line-height: 180%;
+    max-width: 461px;
+    width: 100%;
+}
+
+.right__cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 24px 22px;
+    max-width: 267px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__img1 {
+    border-radius: 10px;
+    background: #3E3125;
+    width: 73.258px;
+    height: 66.281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__title {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.card__txt {
+    color: #868695;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+    padding-top: 20px;
+}
+
+.card__img2 {
+    border-radius: 10px;
+    background: #172656;
+    width: 73.258px;
+    height: 66.281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__img3 {
+    border-radius: 10px;
+    background: #3E0B39;
+    width: 73.258px;
+    height: 66.281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__img4 {
+    border-radius: 10px;
+    background: #3D1C25;
+    width: 73.258px;
+    height: 66.281px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    background: #1A1A3D;
+    transition: 0.5s;
+}
+
+/*--------------------------------------------------------------*/
+#contact {
+    margin-top: 0px;
+    background: #0E0E2C;
+    padding-bottom: 191px;
+}
+
+#contact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.contact__txt {
+    color: #868695;
+    font-weight: 400;
+    padding-top: 17px;
+}
+
+.contact__inp {
+    background: #0E0E2C;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #0E0E2C;
+    color: #626276;
+}
+
+.contact__inp::placeholder {
+    color: #626276;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.form2 {
+    margin-top: 50px;
+    border-radius: 18px;
+    border: 1px solid #626276;
+    max-width: 485px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 22px;
+}
+
+.btn3 {
+    border-radius: 10px;
+    background: #FFBE0B;
+    border: 1px solid #FFBE0B;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 50px;
+    margin: 10px 10px;
+    font-weight: bold;
+    width: 126.03px;
+    height: 50.61px;
+
+}
+
+.btn3:hover {
+    background: #0E0E2C;
+    transition: 0.5s;
+    color: #FFBE0B;
+}
+
+/*----------------------------------*/
+.footer {
+    margin-bottom: 70px;
+}
+
+.icons {
+    margin: auto 0;
+    column-gap: 40px;
+    display: flex;
+    cursor: pointer;
+}
